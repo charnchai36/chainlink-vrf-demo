@@ -1,13 +1,10 @@
-# Sample Hardhat Project
+# Usage example of Chainlink VRF V2
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
+This project demonstrates a basic chainlink vrf use case using hardhat framework.
 
 ```shell
-npx hardhat help
+npm i
+npx hardhat compile
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
 npx hardhat run scripts/deploy.ts
 ```
